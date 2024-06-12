@@ -1,4 +1,17 @@
 {
-  "extends": "@repo/typescript-config/vite.json",
-  "include": ["src"]
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "types": ["vite/client"],
+        "noEmit": true,
+        "isolatedModules": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
 }

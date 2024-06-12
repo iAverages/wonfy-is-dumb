@@ -10,7 +10,8 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@repo/ui": "*"
+    "@repo/ui": "*",
+    "vite-plugin-solid": "^2.10.2"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
